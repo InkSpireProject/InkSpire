@@ -78,7 +78,7 @@ function Page() {
             $30
           </div> */}
           <div className="pd-right-price-new">
-            {book.price}
+            ${book.price}
           </div>
         </div>
 

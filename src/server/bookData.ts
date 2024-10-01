@@ -29,3 +29,31 @@ export async function getBookById(id: string){
   // console.log(book);
   return book;
 }
+
+export async function searchHandler(bookname: string, authorname: string) {
+  try {
+    await connectToDB();
+    console.log(bookname, authorname);
+
+    const query: any = {};
+    
+    if (bookname) {
+      query.name = { $regex: bookname, $options: 'i' };
+    }
+
+    if (authorname) {
+      query.author = { $regex: authorname, $options: 'i' };
+    }
+    const books: res_el[] = await Book.find(query);
+
+    if (books.length > 0) {
+      return books;
+    } else {
+      return null;
+    }
+  } catch (err) {
+    console.log("Error fetching the books!! ", err);
+  }
+}
+
+
