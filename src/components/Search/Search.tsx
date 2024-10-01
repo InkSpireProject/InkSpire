@@ -21,6 +21,12 @@ function Search() {
 
   const handleSearch = async () => {
     try {
+      if(!bookname && !authorname){
+        setResult(null);
+        setError("Please enter either Book Name and/or Author Name");
+        return;
+      }
+
       const response: res_el[] = await searchHandler(bookname, authorname);
   
       if (response === null) {
@@ -78,7 +84,7 @@ function Search() {
       )} 
     </div>
     <div>
-      {error && <div className="text-red-500 font-semibold flex justify-center">{error}</div>}
+      {error && <div className="text-red-500 font-semibold flex justify-center m-4 p-4">{error}</div>}
     </div>
     </>
   )

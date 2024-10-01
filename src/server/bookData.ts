@@ -33,7 +33,7 @@ export async function getBookById(id: string){
 export async function searchHandler(bookname: string, authorname: string) {
   try {
     await connectToDB();
-    console.log(bookname, authorname);
+    // console.log(bookname, authorname);
 
     const query: any = {};
     
@@ -44,6 +44,7 @@ export async function searchHandler(bookname: string, authorname: string) {
     if (authorname) {
       query.author = { $regex: authorname, $options: 'i' };
     }
+
     const books: res_el[] = await Book.find(query);
 
     if (books.length > 0) {
