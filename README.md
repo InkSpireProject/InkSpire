@@ -6,12 +6,17 @@ Inkspire is a Book Rental Website. This guide will help you set up and run the p
 
 ## **Getting Started**
 
-To set up Inkspire locally:
+To set up Inkspire locally:     
 
+## Prerequisites 
+Must have MONGO DB installed     
+
+## Next, follow these steps   
 Clone the repository and navigate to the project directory:
 
 
-git clone https://github.com/InkSpireProject/InkSpire.git
+
+git clone https://github.com/InkSpireProject/InkSpire.git     
 cd Inkspire
 
 ## 1. Install the required dependencies:    
