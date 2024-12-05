@@ -1,0 +1,178 @@
+[
+  {
+    "_id": {
+      "$oid": "66f549915ec177b3bbbe1cbb"
+    },
+    "name": "Rich Dad Poor Dad",
+    "url": "/rdpd.jpg",
+    "author": "Robert Kiyosaki",
+    "description": "A personal finance book that contrasts the financial mindsets of two father figures—one who teaches the importance of traditional education and job security, and another who advocates for financial independence through investing in assets. It emphasizes financial literacy, entrepreneurship, and building wealth by making money work for you instead of working for money.",
+    "price": 15.99,
+    "isbn": "978-1612680194"
+  },
+  {
+    "_id": {
+      "$oid": "66f549915ec177b3bbbe1cbc"
+    },
+    "name": "The Song of Ice and Fire",
+    "url": "/got.webp",
+    "author": "George R.R. Martin",
+    "description": "An epic fantasy series set in the fictional continents of Westeros and Essos, where noble families vie for control of the Iron Throne. The series features political intrigue, betrayal, ancient prophecies, and powerful creatures like dragons. Known for its unpredictable plot twists and morally complex characters, it explores the cost of power and loyalty.",
+    "price": 22.99,
+    "isbn": "978-0553103540"
+  },
+  {
+    "_id": {
+      "$oid": "66f549915ec177b3bbbe1cbd"
+    },
+    "name": "1984",
+    "url": "/1984.jpeg",
+    "author": "George Orwell",
+    "description": "A dystopian novel set in a totalitarian regime where the government controls every aspect of life. The protagonist, Winston Smith, struggles to maintain his individuality and sanity in a world where independent thought is persecuted, and surveillance is constant. The novel explores themes of censorship, propaganda, and the dangers of unchecked power.",
+    "price": 12.99,
+    "isbn": "978-0451524935"
+  },
+  {
+    "_id": {
+      "$oid": "66f549915ec177b3bbbe1cbe"
+    },
+    "name": "The Great Gatsby",
+    "url": "/great.jpg",
+    "author": "F. Scott Fitzgerald",
+    "description": "Set in the Roaring Twenties, this novel follows the life of Jay Gatsby, a mysterious millionaire with a dark past. Gatsby’s love for Daisy Buchanan drives his pursuit of wealth and social status. The novel explores themes of idealism, the American Dream, and the moral decay of society during an era of excess and glamour.",
+    "price": 10.99,
+    "isbn": "978-0743273565"
+  },
+  {
+    "_id": {
+      "$oid": "66f549915ec177b3bbbe1cbf"
+    },
+    "name": "To Kill a Mockingbird",
+    "url": "/mocking.jpeg",
+    "author": "Harper Lee",
+    "description": "Set in the American South, this novel addresses themes of racial injustice and moral growth through the eyes of young Scout Finch. Her father, Atticus Finch, defends a black man falsely accused of raping a white woman. The novel explores human empathy, societal norms, and the importance of standing up for what is right, despite opposition.",
+    "price": 14.99,
+    "isbn": "978-0061120084"
+  },
+  {
+    "_id": {
+      "$oid": "66f549915ec177b3bbbe1cc0"
+    },
+    "name": "The Lord of the Rings",
+    "url": "/lord.png",
+    "author": "J.R.R. Tolkien",
+    "description": "A high fantasy epic following Frodo Baggins and his quest to destroy the One Ring, a powerful artifact sought by the Dark Lord Sauron. The novel explores themes of friendship, bravery, and the struggle between good and evil, set against the richly detailed world of Middle-earth, complete with its own languages, cultures, and mythology.",
+    "price": 30.99,
+    "isbn": "978-0544003415"
+  },
+  {
+    "_id": {
+      "$oid": "66f549915ec177b3bbbe1cc1"
+    },
+    "name": "Pride and Prejudice",
+    "url": "/PRIDE.jpeg",
+    "author": "Jane Austen",
+    "description": "A classic novel of manners that explores the themes of love, marriage, and social class in 19th-century England. The story revolves around Elizabeth Bennet and her evolving relationship with the proud and wealthy Mr. Darcy. Austen's wit and social commentary make this a timeless exploration of personal growth, societal pressures, and romantic tension.",
+    "price": 9.99,
+    "isbn": "978-0141040349"
+  },
+  {
+    "_id": {
+      "$oid": "66f549915ec177b3bbbe1cc2"
+    },
+    "name": "The Catcher in the Rye",
+    "url": "/CATCHER.jpeg",
+    "author": "J.D. Salinger",
+    "description": "This novel follows teenage protagonist Holden Caulfield as he navigates the challenges of adolescence, alienation, and identity. Set in post-World War II New York, Holden’s journey reflects his struggle with the adult world’s hypocrisies and his desire to preserve the innocence of childhood. The novel explores themes of depression, rebellion, and personal introspection.",
+    "price": 13.99,
+    "isbn": "978-0316769488"
+  },
+  {
+    "_id": {
+      "$oid": "66f549915ec177b3bbbe1cc3"
+    },
+    "name": "The Hunger Games",
+    "url": "/HUNGER.jpeg",
+    "author": "Suzanne Collins",
+    "description": "Set in a dystopian future, this novel follows Katniss Everdeen, a young girl forced to compete in a deadly televised battle for survival known as the Hunger Games. As she fights for her life, Katniss becomes a symbol of rebellion against the oppressive Capitol. The story explores themes of survival, sacrifice, and the morality of war.",
+    "price": 16.99,
+    "isbn": "978-0439023481"
+  },
+  {
+    "_id": {
+      "$oid": "66f555b45ec177b3bbbe1cc4"
+    },
+    "name": "The Hobbit",
+    "url": "/thehobbit.jpeg",
+    "author": "J.R.R. Tolkien",
+    "description": "This fantasy novel follows Bilbo Baggins, a reluctant hobbit who embarks on a journey with a group of dwarves to reclaim treasure from the dragon Smaug. Along the way, Bilbo encounters trolls, elves, and goblins, while discovering his own courage and resourcefulness. The Hobbit is a prelude to the epic Lord of the Rings series.",
+    "price": 14.99,
+    "isbn": "978-0547928227"
+  },
+  {
+    "_id": {
+      "$oid": "66f555b45ec177b3bbbe1cc5"
+    },
+    "name": "Fahrenheit 451",
+    "url": "/fahrenheit.png",
+    "author": "Ray Bradbury",
+    "description": "In a future where books are banned, 'firemen' are tasked with burning any that are found. The novel follows Montag, a fireman who begins to question the oppressive, anti-intellectual society he lives in. Through his awakening, the novel explores themes of censorship, conformity, and the importance of literature in preserving human thought and freedom.",
+    "price": 11.99,
+    "isbn": "978-1451673319"
+  },
+  {
+    "_id": {
+      "$oid": "66f555b45ec177b3bbbe1cc6"
+    },
+    "name": "Pride and Prejudice",
+    "url": "/PRIDE.jpeg",
+    "author": "Jane Austen",
+    "description": "A second entry of the classic novel exploring the lives and loves of the Bennet family, with Elizabeth Bennet’s romance with Mr. Darcy as the focal point. Austen deftly blends wit, romantic tension, and social commentary to craft a timeless exploration of individual growth and societal expectations.",
+    "price": 9.99,
+    "isbn": "978-0141040349"
+  },
+  {
+    "_id": {
+      "$oid": "66f555b45ec177b3bbbe1cc7"
+    },
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "url": "/lordOfRings.jpeg",
+    "author": "J.R.R. Tolkien",
+    "description": "The first book in the Lord of the Rings trilogy follows Frodo Baggins as he embarks on a perilous journey to destroy the One Ring. Along with his companions, Frodo faces many challenges as dark forces gather to stop him. The novel sets the stage for the epic battle between good and evil in Middle-earth.",
+    "price": 18.99,
+    "isbn": "978-0547928210"
+  },
+  {
+    "_id": {
+      "$oid": "66f555b45ec177b3bbbe1cc8"
+    },
+    "name": "Brave New World",
+    "url": "/braveNewWorld.jpeg",
+    "author": "Aldous Huxley",
+    "description": "A dystopian novel set in a futuristic society where people are conditioned to embrace consumerism, pleasure, and conformity, sacrificing individuality and personal freedom. The novel explores the dangers of totalitarianism, state control, and technological advances that dehumanize individuals. It raises questions about the role of human emotion in society.",
+    "price": 13.99,
+    "isbn": "978-0060850524"
+  },
+  {
+    "_id": {
+      "$oid": "66f555b45ec177b3bbbe1cc9"
+    },
+    "name": "The Fault in Our Stars",
+    "url": "/fault.jpeg",
+    "author": "John Green",
+    "description": "A touching story about Hazel Grace, a teenager living with cancer, and her relationship with Augustus Waters, a fellow cancer patient. Together, they navigate life, love, and mortality with humor and heartbreak. The novel explores themes of illness, hope, and the emotional complexities of young love in the face of uncertain futures.",
+    "price": 12.99,
+    "isbn": "978-0142424179"
+  },
+  {
+    "_id": {
+      "$oid": "66f555b45ec177b3bbbe1ccb"
+    },
+    "name": "The Kite Runner",
+    "url": "/kite.jpeg",
+    "author": "Khaled Hosseini",
+    "description": "Set in Afghanistan, it is story of Amir, a young boy from a wealthy family, and his complex relationship with Hassan, the son of his father’s servant. Spanning decades, the novel explores themes of friendship, betrayal, guilt, and redemption as Amir grapples with his past and the consequences of his actions during a turbulent time in Afghanistan's history.",
+    "price": 14.99,
+    "isbn": "978-1594631931"
+  }
+]
