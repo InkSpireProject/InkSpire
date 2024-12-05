@@ -81,7 +81,7 @@ const ReviewComponent = ({
       if (result.status) {
         alert("Review added successfully");
         result.review.userId = {
-          id: result.review.userId,
+          id: result.review?.userId,
           username: user?.username,
         };
         setReviews((prevReviews) => [result.review, ...prevReviews]);

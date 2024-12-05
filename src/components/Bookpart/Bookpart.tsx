@@ -50,7 +50,7 @@ const BookList = ({ books }: Booksprop) => {
           {/* Book Cards */}
           <div className="w-full">
             {filteredBooks.length > 0 ? (
-              <div className="grid grid-cols-4 w-full gap-y-10">
+              <div className="grid grid-cols-2 md:grid-cols-4 w-full gap-y-10">
                 {filteredBooks.map((book: Book, index) => (
                   <div
                     className="justify-self-center shadow-md rounded-xl"

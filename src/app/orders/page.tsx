@@ -162,8 +162,8 @@ function Page() {
                         <div className="flex flex-col md:flex-row">
                             <div className="md:w-1/3 relative h-48 md:h-auto overflow-hidden rounded-lg">
                                 <Image
-                                    src={rental.book.url}
-                                    alt={rental.book.name}
+                                    src={rental.book?.url}
+                                    alt={rental.book?.name}
                                     fill
                                     className="object-cover transition-all duration-500 ease-in-out hover:shadow-2xl"
                                 />
@@ -173,10 +173,10 @@ function Page() {
                                     Rental Duration: {rental.duration} days
                                 </div>
                                 <h2 className="mt-2 text-xl font-bold text-gray-900">
-                                    {rental.book.name}
+                                    {rental.book?.name}
                                 </h2>
                                 <p className="mt-2 text-gray-600">
-                                    Author: {rental.book.author}
+                                    Author: {rental.book?.author}
                                 </p>
                                 <div className="mt-4 flex flex-wrap gap-4">
                                     <div className="flex items-center">
@@ -185,7 +185,7 @@ function Page() {
                                     </div>
                                     <div className="flex items-center">
                                         <span className="text-gray-700 font-medium">Lender:</span>
-                                        <span className="ml-2 text-red-800">{rental.book.username}</span>
+                                        <span className="ml-2 text-red-800">{rental.book?.username}</span>
                                     </div>
                                 </div>
                                 <div className="mt-4">
@@ -194,7 +194,7 @@ function Page() {
                                             <div className='flex gap-5'>
                                                 <button
                                                     className='hover:underline font-bold text-green-700 text-lg transition-colors duration-300'
-                                                    onClick={() => router.push(`/library/${rental.book._id}`)}
+                                                    onClick={() => router.push(`/library/${rental.book?._id}`)}
                                                 >
                                                     Rent Again
                                                 </button>
