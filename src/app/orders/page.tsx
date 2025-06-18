@@ -45,7 +45,7 @@ function Page() {
     const [deleteClick, setDeleteClick] = useState(true);
     const router = useRouter();
 
-    const { user, isLoaded, isSignedIn } = useUser();
+    const { user, isSignedIn } = useUser();
 
     useEffect(() => {
         if (!isSignedIn) {
@@ -75,7 +75,7 @@ function Page() {
         };
 
         fetchRentedBooks();
-    }, [returnClick, deleteClick, isLoaded, isSignedIn, user]);
+    }, [returnClick, deleteClick, isSignedIn, user]);
 
     const handleReturn = async (id: string) => {
         try {
